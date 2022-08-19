@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		//ESERCIZIO BASE
 		Prodotto[] shop=new Prodotto[5];
 		
 		Prodotto prod1 = new Prodotto("Bic", "Accendino", 1.05f, 23);
@@ -23,6 +24,7 @@ public class Main {
 
 			System.out.println(shop[i].fraseFinale());
 		}
+		
 
 
 	}

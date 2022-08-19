@@ -28,4 +28,10 @@ public class Prodotto {
 
 		return "Il prezzo finale del prodotto " + nome + " della marca " + marca + " è di: " + df.format(TotConIva());
 	}
+	
+	
+	public String catalogo() {
+		return "Marca: "+marca+" Modello: "+ nome +" Prezzo: "+prezzo+"€ Prezzo+iva: "+df.format(TotConIva());
+				
+	}
 }
